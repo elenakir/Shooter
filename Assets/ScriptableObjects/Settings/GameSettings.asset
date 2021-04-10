@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5727523a941944248b81be95e066ea36, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  WeaponSystem:
+    Settings:
+      hitEffect: {fileID: 100002, guid: 20b31fcfaed0cb842a56fbbe2419428f, type: 3}
+      explosionEffect: {fileID: 454534159459583858, guid: d1e1ba826ad5f5e44a8f1b81e8830f60,
+        type: 3}
+      Rocket: {fileID: 8860098877226158621, guid: 90040fbbd1f801f48a697eb234a9991b,
+        type: 3}
+      camera: {fileID: 4515251827703136417, guid: 26fadd92a6f39e948986cbc331934784,
+        type: 3}
+  InventorySystem:
+    Settings:
+      startWeaponsList:
+      - {fileID: 11400000, guid: e55f65210245f9645a21cd8ec8c702fd, type: 2}
+      - {fileID: 11400000, guid: 0be4f32a321119d4db4c66525e348403, type: 2}
+  PlayerMovementSystem:
+    Settings:
+      groundLayerMask:
+        serializedVersion: 2
+        m_Bits: 256
+      groundCheck: {fileID: 8119380926553461253, guid: 605cb89dbdba2d64c98d938825adb5f1,
+        type: 3}
+      groundDistance: 0.2

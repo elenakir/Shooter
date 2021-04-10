@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc70738df9735a946929a0487dd5075c, type: 3}
+  m_Name: Options
+  m_EditorClassIdentifier: 
+  PlayerSpeed: 10.943663
+  MouseSensibility: 300
+  JumpHeight: 1.8078196
+  BestResult: 32
+  PlayerPosition: {x: -20.949999, y: 1.58, z: -20.15}
+  PlayerRotation: {x: 0, y: -0.028274056, z: 0, w: -0.99960023}
